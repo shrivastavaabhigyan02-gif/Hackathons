@@ -1,0 +1,28 @@
+{
+  "name": "folk-and-flame",
+  "version": "1.0.0",
+  "description": "Folk and Flame - Premium Full-Stack Restaurant Platform & AI Food Concierge",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n \"BACKEND,FRONTEND\" -c \"yellow,cyan\" \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "test": "npm run test --prefix backend",
+    "seed": "npm run seed --prefix backend",
+    "setup": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "restaurant",
+    "react",
+    "express",
+    "supabase",
+    "ai",
+    "food-ordering"
+  ],
+  "author": "Folk and Flame Team",
+  "license": "MIT"
+}

@@ -1,0 +1,80 @@
+/* FOLK AND FLAME DESIGN TOKENS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  /* Brand Palette */
+  --color-bg-base: #0c0b0a;
+  --color-bg-surface: #141312;
+  --color-bg-card: #1b1917;
+  --color-bg-elevated: #24211e;
+  --color-bg-glass: rgba(20, 19, 18, 0.78);
+  --color-bg-overlay: rgba(12, 11, 10, 0.85);
+
+  /* Primary Accent: Burnt & Flame Orange */
+  --color-flame-500: #e85d04;
+  --color-flame-400: #f48c06;
+  --color-flame-600: #dc2f02;
+  --color-flame-700: #d00000;
+  --color-flame-glow: rgba(232, 93, 4, 0.28);
+  --color-flame-gradient: linear-gradient(135deg, #e85d04 0%, #f48c06 100%);
+  --color-flame-subtle: rgba(232, 93, 4, 0.12);
+
+  /* Secondary Accent: Soft Gold */
+  --color-gold-400: #f3c969;
+  --color-gold-500: #d4af37;
+  --color-gold-600: #b58d20;
+  --color-gold-glow: rgba(212, 175, 55, 0.22);
+  --color-gold-gradient: linear-gradient(135deg, #f3c969 0%, #d4af37 100%);
+
+  /* Neutrals: Warm Cream to Charcoal */
+  --color-cream-50: #fdfbf7;
+  --color-cream-100: #f7f2e8;
+  --color-cream-200: #eee4d1;
+  --color-cream-300: #d8c7ac;
+  --color-cream-400: #b5a082;
+  --color-charcoal-700: #332f2b;
+  --color-charcoal-800: #23201d;
+  --color-charcoal-900: #141210;
+
+  /* Text Colors */
+  --text-primary: #fdfbf7;
+  --text-secondary: #c5bba8;
+  --text-muted: #8e8372;
+  --text-inverse: #141210;
+
+  /* Status Colors */
+  --color-success: #10b981;
+  --color-success-bg: rgba(16, 185, 129, 0.14);
+  --color-warning: #f59e0b;
+  --color-warning-bg: rgba(245, 158, 11, 0.14);
+  --color-error: #ef4444;
+  --color-error-bg: rgba(239, 68, 68, 0.14);
+  --color-info: #3b82f6;
+
+  /* Typography */
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Border & Radii */
+  --border-subtle: rgba(216, 199, 172, 0.12);
+  --border-focus: rgba(232, 93, 4, 0.6);
+  --border-gold: rgba(212, 175, 55, 0.35);
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-full: 9999px;
+
+  /* Elevation & Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.6);
+  --shadow-flame: 0 10px 30px rgba(232, 93, 4, 0.28);
+  --shadow-gold: 0 8px 24px rgba(212, 175, 55, 0.22);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 400ms cubic-bezier(0.16, 1, 0.3, 1);
+}
